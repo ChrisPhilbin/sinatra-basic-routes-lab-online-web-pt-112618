@@ -5,6 +5,10 @@ class App < Sinatra::Base
   get '/name' do
     erb :name
   end
+  
+  post '/postview' do
+    erb :postview
+  end
 
   get '/hometown' do
     "My hometown is __"
